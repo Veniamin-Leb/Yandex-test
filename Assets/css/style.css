@@ -1,0 +1,470 @@
+body, header, footer, main, h1, h2, h3, h4, h5, h6, p, div, a, b, button {
+  padding: 0;
+  margin: 0 auto;
+  border: none;
+  width: 100%;
+  background: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Merriweather";
+  color: #313131;
+}
+
+p, a, b, button, table {
+  font-family: "Golos Text";
+  color: #313131;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+div {
+  display: flex;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  max-width: 1222px;
+  margin: 0 auto;
+}
+
+.container .container__left {
+  width: 100%;
+  max-width: 474px;
+  margin-right: 44px;
+}
+
+.container .container__right {
+  flex-direction: column;
+}
+
+header {
+  padding: 26px 0;
+}
+
+header .header__content .content__logo p {
+  font-weight: 700;
+  font-size: 16.65px;
+  line-height: 108%;
+  color: #595653;
+  text-transform: uppercase;
+  padding-left: 6.35px;
+}
+
+header .header__content .content__logo svg {
+  margin: auto 0;
+}
+
+main .main__MainSection {
+  padding: 62px 0 130px;
+  position: relative;
+}
+
+main .main__MainSection .MainSection__content {
+  flex-direction: column;
+}
+
+main .main__MainSection .MainSection__content .content__title, main .main__MainSection .MainSection__content .content__text, main .main__MainSection .MainSection__content .content__buttons {
+  max-width: 542px;
+  margin: 0;
+}
+
+main .main__MainSection .MainSection__content .content__title h1 {
+  display: flex;
+  flex-direction: column;
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 110%;
+  text-transform: uppercase;
+}
+
+main .main__MainSection .MainSection__content .content__title h1 .textA_center {
+  text-align: center;
+}
+
+main .main__MainSection .MainSection__content .content__title h1 .textA_right {
+  text-align: right;
+}
+
+main .main__MainSection .MainSection__content .content__text {
+  margin: 24px 0 40px;
+}
+
+main .main__MainSection .MainSection__content .content__text p {
+  text-align: center;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 130%;
+}
+
+main .main__MainSection .MainSection__content .content__buttons {
+  justify-content: space-between;
+}
+
+main .main__MainSection .MainSection__content .content__buttons button {
+  max-width: 263px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 130%;
+  border: 2px solid #1F1F1F;
+  border-radius: 66px;
+  padding: 13.2px 0;
+  transition: all linear .2s;
+}
+
+main .main__MainSection .MainSection__content .content__buttons button:first-child {
+  background-color: #1F1F1F;
+  color: #fff;
+}
+
+main .main__MainSection .MainSection__content .content__buttons button:hover {
+  cursor: pointer;
+  background-color: #1F1F1F;
+  color: #fff;
+}
+
+main .main__MainSection .MainSection__content .content__buttons button:first-child:hover {
+  background-color: #FBCE51;
+  color: #1F1F1F;
+  border: #FBCE51;
+}
+
+main .main__MainSection .MainSection__bcg {
+  position: absolute;
+  top: -87.97px;
+  left: 0;
+  width: 100%;
+  height: calc(100% + 87.97px);
+  z-index: -1;
+  overflow-x: hidden;
+}
+
+main .main__MainSection .MainSection__bcg img {
+  width: 2000px;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  display: block;
+}
+
+main .main__Marquee {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  background: #F54932;
+  padding: 18px 0;
+}
+
+main .main__Marquee .Marquee__wrapper {
+  display: flex;
+  width: max-content;
+  animation: marquee 20s linear infinite;
+}
+
+main .main__Marquee .Marquee__wrapper .wrapper__content {
+  font-family: 'Merriweather';
+  text-transform: uppercase;
+  color: #FFF;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 110%;
+  white-space: nowrap;
+}
+
+main .main__Marquee .Marquee__wrapper .wrapper__content span {
+  font-weight: 700;
+  padding: 0 12px;
+  font-size: 1.2em;
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+main .main__Idea {
+  margin: 80px 0 64px;
+}
+
+main .main__Idea .Idea__content {
+  justify-content: space-between;
+}
+
+main .main__Idea .Idea__content .content__title {
+  width: 100%;
+  max-width: 764px;
+}
+
+main .main__Idea .Idea__content .content__title h2 {
+  font-size: 36px;
+  font-weight: 400;
+  text-transform: uppercase;
+  line-height: 135%;
+  margin: auto 0;
+}
+
+main .main__Idea .Idea__content .content__title h2 span {
+  font-weight: 700;
+  color: #F54932;
+}
+
+main .main__Idea .Idea__content .content__img {
+  width: 100%;
+  max-width: 394px;
+}
+
+main .main__Idea .Idea__content .content__img img {
+  width: 100%;
+}
+
+main .main__Table .Table__content {
+  justify-content: space-between;
+}
+
+main .main__Table .Table__content .container__left .content__img {
+  position: relative;
+}
+
+main .main__Table .Table__content .container__left .content__img img {
+  width: 550px;
+  position: absolute;
+  top: -50px;
+  left: -40px;
+}
+
+main .main__Table .Table__content .container__right .content__title h2 {
+  font-size: 36px;
+  font-weight: 400;
+  text-transform: uppercase;
+  line-height: 135%;
+  margin: auto 0;
+}
+
+main .main__Table .Table__content .container__right .content__title h2 span {
+  font-weight: 700;
+  color: #F54932;
+}
+
+main .main__Table .Table__content .container__right .content__table table {
+  width: 100%;
+  margin: 60px 0 48px;
+  border-collapse: collapse;
+}
+
+main .main__Table .Table__content .container__right .content__table table tr {
+  text-align: left;
+}
+
+main .main__Table .Table__content .container__right .content__table table tr th {
+  padding: 16px 0;
+  opacity: .7;
+  line-height: 120%;
+  font-weight: 400;
+  border: 2px solid #D0D0D0;
+  border-left: none;
+  border-top: none;
+}
+
+main .main__Table .Table__content .container__right .content__table table tr td {
+  padding: 16px;
+  line-height: 120%;
+  font-weight: 600;
+  border: 2px solid #D0D0D0;
+  border-right: none;
+  border-top: none;
+}
+
+main .main__Table .Table__content .container__right .content__table table tr td span {
+  text-decoration: line-through #F54932;
+  margin-right: 12px;
+}
+
+main .main__Table .Table__content .container__right .content__table table tr:last-child th, main .main__Table .Table__content .container__right .content__table table tr:last-child td {
+  border-bottom: none;
+}
+
+main .main__Table .Table__content .container__right .content__link a {
+  font-weight: 400;
+  line-height: 120%;
+  text-align: justify;
+  color: #3057A2;
+  transition: all linear .3s;
+}
+
+main .main__Table .Table__content .container__right .content__link a:hover {
+  opacity: .7;
+}
+
+main .main__Steps {
+  margin: 200px 0;
+  overflow: hidden;
+}
+
+main .main__Steps .Steps__content {
+  flex-direction: column;
+  position: relative;
+}
+
+main .main__Steps .Steps__content .content__title {
+  margin-bottom: 54px;
+}
+
+main .main__Steps .Steps__content .content__title h2 {
+  font-size: 54px;
+  font-weight: 400;
+  line-height: 120%;
+  text-transform: uppercase;
+  position: relative;
+}
+
+main .main__Steps .Steps__content .content__title h2 span {
+  max-width: 280px;
+  font-family: 'Golos Text';
+  font-size: 20px;
+  text-transform: none;
+  line-height: 120%;
+  color: #3057A2;
+  position: absolute;
+  bottom: 10px;
+  margin-left: 15px;
+}
+
+main .main__Steps .Steps__content .content__greed {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(354px, 1fr));
+  grid-template-rows: repeat(auto-fit, minmax(112px, 1fr));
+  gap: 20px;
+}
+
+main .main__Steps .Steps__content .content__greed .greed__block {
+  padding: 20px;
+  background: url("/Assets/img/box-bcg.png") center/cover no-repeat;
+}
+
+main .main__Steps .Steps__content .content__greed .greed__block b {
+  width: fit-content;
+  height: fit-content;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 12px;
+  border-radius: 50%;
+  text-align: center;
+  font-weight: 600;
+  background-color: #ffffffea;
+  line-height: 1;
+}
+
+main .main__Steps .Steps__content .content__greed .greed__block p {
+  font-weight: 500;
+  margin-left: 16px;
+}
+
+main .main__Steps .Steps__content .content__greed .num-3 {
+  grid-row: span 2;
+}
+
+main .main__Steps .Steps__content .content__greed .num-7 {
+  grid-column: span 2;
+}
+
+main .main__Steps .Steps__content .content__img {
+  max-width: 400px;
+  position: absolute;
+  bottom: 0;
+  right: -65px;
+}
+
+main .main__Steps .Steps__content .content__img img {
+  width: 100%;
+}
+
+main .main__Members {
+  margin-bottom: 140px;
+}
+
+main .main__Members .Members__content {
+  position: relative;
+  flex-direction: column;
+}
+
+main .main__Members .Members__content .content__title {
+  margin-bottom: 60px;
+}
+
+main .main__Members .Members__content .content__title h2 {
+  font-size: 54px;
+  font-weight: 400;
+  line-height: 120%;
+  text-transform: uppercase;
+}
+
+main .main__Members .Members__content .content__slider {
+  justify-content: space-between;
+}
+
+main .main__Members .Members__content .content__slider .slider__block {
+  display: flex;
+  flex-direction: column;
+  margin: 0 28.5px;
+}
+
+main .main__Members .Members__content .content__slider .slider__block .block__img {
+  width: 100%;
+  background: #cec0af;
+  border-radius: 50%;
+}
+
+main .main__Members .Members__content .content__slider .slider__block .block__img img {
+  width: 100%;
+}
+
+main .main__Members .Members__content .content__slider .slider__block .block__name {
+  padding: 28px 0 6px;
+}
+
+main .main__Members .Members__content .content__slider .slider__block .block__name p {
+  text-align: center;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 120%;
+}
+
+main .main__Members .Members__content .content__slider .slider__block .block__description p {
+  text-align: center;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 120%;
+  opacity: .6;
+}
+
+main .main__Members .Members__content .content__slider .slider__block .block__button {
+  margin-top: 20px;
+}
+
+main .main__Members .Members__content .content__slider .slider__block .block__button button {
+  max-width: 178px;
+  font-weight: 500;
+  font-size: 16px;
+  color: #3057A2;
+  border: 1px solid #3057A2;
+  border-radius: 10px;
+  padding: 12px 0;
+}
+
+footer {
+  padding: 40px 0 72px;
+  background: #E9DED4;
+}
+
+footer .container p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 120%;
+  opacity: .6;
+}
