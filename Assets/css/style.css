@@ -306,7 +306,7 @@ main .main__Steps .Steps__content .content__greed .greed-slide {
 }
 main .main__Steps .Steps__content .content__greed .greed-slide .greed__block {
   padding: 20px;
-  background: url("Assets/img/box-bcg.png") center/cover no-repeat;
+  background: url("../img/box-bcg.png") center/cover no-repeat;
 }
 main .main__Steps .Steps__content .content__greed .greed-slide .greed__block b {
   width: -moz-fit-content;
